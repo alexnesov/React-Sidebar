@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
+import { SidebarData } from './SidebarData';
+import SubMenu from './SubMenu';
 
 const Nav = styled.div`
   background: #15171c;
@@ -57,6 +59,9 @@ const Sidebar = () => {
                 <NavIcon to="#">
                     <AiIcons.AiOutlineClose onClick={showSidebar}/>
                 </NavIcon>
+                {SidebarData.map((item, index) => {
+                    return <SubMenu item={item} key={index} />;
+                })}
                 </SidebarWrap>
             </SidebarNav>
         </>

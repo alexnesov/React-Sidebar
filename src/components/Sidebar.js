@@ -8,10 +8,12 @@ import SubMenu from './SubMenu';
 
 const Nav = styled.div`
   background: #15171c;
+  
   height: 80px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
 `;
 
 const NavIcon = styled(Link)`
@@ -21,18 +23,23 @@ const NavIcon = styled(Link)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  color:#fff;
 `;
 
 const SidebarNav = styled.nav`
-    background: #15171c;
-    width: 250px;
+    background-image: linear-gradient(to bottom right,#252d38, #374d6b);
+    opacity: 0.95;
+    height: calc(100% - 63px);
+    transition: all 300ms linear;
+
+    width: 350px;
     height: 100vh;
     display: flex;
     justify-content: center;
     position: fixed;
     top: 0;
     left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
-    transition: 350ms;
+    transition: 450ms;
     z-index: 10;
 `;
 

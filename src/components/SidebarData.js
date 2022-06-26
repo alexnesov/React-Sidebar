@@ -1,14 +1,18 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
+import * as MdIcons from 'react-icons/md';
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
+import * as BsIcons from 'react-icons/bs';
+import * as DiIcons from 'react-icons/di';
+import * as GiIcons from 'react-icons/gi';
+import * as AiIcons from 'react-icons/ai';
 
 export const SidebarData = [
   {
     title: 'Admin',
-    path: '/Admin',
-    icon: <AiIcons.AiFillHome />,
+    path: '/admin',
+    icon: <MdIcons.MdOutlineManageAccounts />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
@@ -16,24 +20,24 @@ export const SidebarData = [
       {
         title: 'Account',
         path: '/Admin/Account',
-        icon: <IoIcons.IoIosPaper />
+        icon: <MdIcons.MdOutlineManageAccounts />
       },
       {
         title: 'Investment Infrastructure',
         path: '/Account/Investment_Infrastructure',
-        icon: <IoIcons.IoIosPaper />
+        icon: <DiIcons.DiTerminal />
       }
     ]
   },
   {
     title: 'Macro',
     path: '/Macro',
-    icon: <IoIcons.IoMdHelpCircle />
+    icon: <BsIcons.BsGlobe />
   },
   {
     title: 'Data',
     path: '/Data',
-    icon: <IoIcons.IoIosPaper />,
+    icon: <FaIcons.FaDatabase />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
@@ -55,7 +59,7 @@ export const SidebarData = [
   {
     title: 'Signals',
     path: '/Signals',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <GiIcons.GiAerialSignal />,
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -76,11 +80,11 @@ export const SidebarData = [
   {
     title: 'Portfolios',
     path: '/Portfolios',
-    icon: <IoIcons.IoMdHelpCircle />
+    icon: <AiIcons.AiOutlineWallet />
   },
   {
     title: 'Buffet',
     path: '/Buffet',
-    icon: <IoIcons.IoMdHelpCircle />
+    icon: <MdIcons.MdAccountBalance />
   }
 ];

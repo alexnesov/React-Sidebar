@@ -8,12 +8,11 @@ import SubMenu from './SubMenu';
 
 const Nav = styled.div`
   background: #15171c;
-  
-  height: 80px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
+  border-bottom: #008ed6 4px solid;
+  opacity: 0.8;
 `;
 
 const NavIcon = styled(Link)`
@@ -27,13 +26,13 @@ const NavIcon = styled(Link)`
 `;
 
 const SidebarNav = styled.nav`
+    margin-top:3.5%;
     background-image: linear-gradient(to bottom right,#252d38, #374d6b);
     opacity: 0.95;
-    height: calc(100% - 63px);
-    transition: all 300ms linear;
-
+    transition: all 400ms linear;
     width: 350px;
     height: 100vh;
+    padding-top:20px
     display: flex;
     justify-content: center;
     position: fixed;
@@ -47,6 +46,8 @@ const SidebarNav = styled.nav`
 const SidebarWrap = styled.div`
     width: 100%;
 `;
+
+
 
 const Sidebar = () => {
 

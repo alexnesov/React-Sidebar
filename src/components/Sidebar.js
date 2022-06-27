@@ -26,7 +26,7 @@ const NavIcon = styled(Link)`
 `;
 
 const SidebarNav = styled.nav`
-    margin-top:3.5%;
+    margin-top:3.6%;
     background-image: linear-gradient(to bottom right,#252d38, #374d6b);
     opacity: 0.95;
     transition: all 400ms linear;

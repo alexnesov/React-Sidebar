@@ -8,8 +8,10 @@
 
 .Admin{
     display: flex;
-    height: 90vh;
+    height: 100vh;
     align-items: center;
     justify-content: center;
+    color: aliceblue;
     font-size: 3rem;
+    background-color: #000000;
 }

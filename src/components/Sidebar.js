@@ -29,7 +29,7 @@ const SidebarNav = styled.nav`
     margin-top:3.6%;
     background-image: linear-gradient(to bottom right,#252d38, #374d6b);
     opacity: 0.95;
-    transition: all 400ms linear;
+    transition: all 200ms linear;
     width: 350px;
     height: 100vh;
     padding-top:20px
@@ -38,7 +38,6 @@ const SidebarNav = styled.nav`
     position: fixed;
     top: 0;
     left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
-    transition: 450ms;
     z-index: 10;
 `;
 

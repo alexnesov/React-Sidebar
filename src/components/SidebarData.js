@@ -30,12 +30,12 @@ export const SidebarData = [
     ]
   },
   {
-    title: 'Macro',
+    title: 'Title1',
     path: '/Macro',
     icon: <BsIcons.BsGlobe />
   },
   {
-    title: 'Data',
+    title: 'Title2',
     path: '/Data',
     icon: <FaIcons.FaDatabase />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -43,13 +43,13 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: 'Technicals',
+        title: 'Sub1',
         path: '/Data/Technicals',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
-        title: 'Ownership',
+        title: 'Sub2',
         path: '/Data/Ownership',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
@@ -57,7 +57,7 @@ export const SidebarData = [
     ]
   },
   {
-    title: 'Signals',
+    title: 'Title3',
     path: '/Signals',
     icon: <GiIcons.GiAerialSignal />,
 
@@ -66,24 +66,24 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: 'Reversal',
+        title: 'Sub1',
         path: '/messages/message1',
         icon: <IoIcons.IoIosPaper />
       },
       {
-        title: 'Short',
+        title: 'Sub2',
         path: '/messages/message2',
         icon: <IoIcons.IoIosPaper />
       }
     ]
   },
   {
-    title: 'Portfolios',
+    title: 'Title4',
     path: '/Portfolios',
     icon: <AiIcons.AiOutlineWallet />
   },
   {
-    title: 'Buffet',
+    title: 'Title5',
     path: '/Buffet',
     icon: <MdIcons.MdAccountBalance />
   }
